@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" xml:lang="en" unique-identifier="url-id">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+		<dc:title id="title">不插電的資訊科學</dc:title>
+		<dc:description>電腦無所不在。我們都要學習如何使用，而我們之中一定有人天天使用電腦。不過，電腦是怎麼運作的呢？又是怎麼思考的？還有，人們是如何寫出快速且容易使用的軟體呢？資訊科學是一個很吸引人的學科，可以探索上述這些問題。這本書設計給各年齡層的學生，利用簡單有趣的活動來介紹電腦的運作 -- 但完全不透過電腦！</dc:description>
+		<dc:creator id="aut">Tim Bell, Ian H. Witten, Mike Fellows</dc:creator>
+		<dc:identifier id="url-id">https://github.com/l10n-tw/csunplugged</dc:identifier>
+		<dc:language>zh</dc:language>
+		<dc:publisher>中華民國軟體自由協會</dc:publisher>
+	</metadata>
+	<manifest>
+		<item href="page1.xhtml" id="page1" media-type="application/xhtml+xml"/>
+		<item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+		<item id="toc" properties="nav" href="toc.xhtml" media-type="application/xhtml+xml"/>
+	</manifest>
+	<spine toc="ncx">
+		<itemref idref="page1" />
+	</spine>
+</package>
