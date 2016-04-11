@@ -9,11 +9,10 @@
 		<dc:publisher>中華民國軟體自由協會</dc:publisher>
 	</metadata>
 	<manifest>
-		<item href="page1.xhtml" id="page1" media-type="application/xhtml+xml"/>
-		<item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
 		<item id="toc" properties="nav" href="toc.xhtml" media-type="application/xhtml+xml"/>
+		<item href="intro.xhtml" id="intro" media-type="application/xhtml+xml"/>
 	</manifest>
 	<spine toc="ncx">
-		<itemref idref="page1" />
+		<itemref idref="intro" />
 	</spine>
 </package>
