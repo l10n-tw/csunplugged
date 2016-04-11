@@ -11,8 +11,10 @@
 	<manifest>
 		<item id="toc" properties="nav" href="toc.xhtml" media-type="application/xhtml+xml"/>
 		<item href="intro.xhtml" id="intro" media-type="application/xhtml+xml"/>
+		<item href="acknowledgements.xhtml" id="acknowledgements" media-type="application/xhtml+xml"/>
 	</manifest>
 	<spine toc="ncx">
 		<itemref idref="intro" />
+		<itemref idref="acknowledgements" />
 	</spine>
 </package>
