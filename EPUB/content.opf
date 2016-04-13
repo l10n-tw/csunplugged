@@ -12,9 +12,21 @@
 		<item id="toc" properties="nav" href="toc.xhtml" media-type="application/xhtml+xml"/>
 		<item href="intro.xhtml" id="intro" media-type="application/xhtml+xml"/>
 		<item href="acknowledgements.xhtml" id="acknowledgements" media-type="application/xhtml+xml"/>
+		<item href="part1.xhtml" id="part1" media-type="application/xhtml+xml"/>
+		<item href="part2.xhtml" id="part2" media-type="application/xhtml+xml"/>
+		<item href="part3.xhtml" id="part3" media-type="application/xhtml+xml"/>
+		<item href="part4.xhtml" id="part4" media-type="application/xhtml+xml"/>
+		<item href="part5.xhtml" id="part5" media-type="application/xhtml+xml"/>
+		<item href="part6.xhtml" id="part6" media-type="application/xhtml+xml"/>
 	</manifest>
 	<spine toc="ncx">
 		<itemref idref="intro" />
 		<itemref idref="acknowledgements" />
+		<itemref idref="part1" />
+		<itemref idref="part2" />
+		<itemref idref="part3" />
+		<itemref idref="part4" />
+		<itemref idref="part5" />
+		<itemref idref="part6" />
 	</spine>
 </package>

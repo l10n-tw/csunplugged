@@ -4,15 +4,17 @@
 		<title>謝誌</title>
 		<style>
 			@namespace epub "http://www.idpf.org/2007/ops";
-			a[epub|type~="noteref"], aside[epub|type~="footnote"] ::first-letter {
+			a[epub|type~="noteref"] {
 				vertical-align: super;
 				line-height: normal;
 				font-size: smaller;
 			}
-			aside[epub|type~="footnote"] {
-				text-indent: 2em;
-				margin-top: 2em;
+			aside[epub|type~="footnotes"] {
+				padding-top: 2em;
 				border-top: 1px solid;
+			}
+			aside[epub|type~="footnotes"] + * {
+				page-break-before: always;
 			}
 		</style>
 	</head>
@@ -25,10 +27,10 @@
 			Gwenda Bensemann 已試作一些活動，並提供建議修改。Richard Lynders 與 Sumant Murugesh 協助課堂的試驗。部分的加密活動是由 Ken Noblitz 所開發。有些活動是在維多利亞 “Mathmania” 集團的協助下進行，並得到 Kathy Beveridge 的大力幫忙。較早版本的插圖是由 Malcolm Robinson 與 Gail Williams 所繪製，我們也受益於 Hans Knutson 的建議。Matt Powell 在「不插電」計畫中提供許多實質的協助。我們非常感謝 Brian Mason Scientific and Technical Trust 在此書發展的早期提供大手筆的贊助。
 		</p>
 		<p>
-			特別感謝 Paul and Ruth Ellen Howard 測試了許多活動，並提供大量有幫助的建議。Peter Henderson, Bruce McKenzie, Joan Mitchell, Nancy Walker-Mitchell, Gwen Stark, Tony Smith, Tim A. H. Bell<a href="#notes" epub:type="noteref">1</a>, Mike Hallett, 和 Harold Thimbleby 也提供許多有用的評論。
+			特別感謝 Paul and Ruth Ellen Howard 測試了許多活動，並提供大量有幫助的建議。Peter Henderson, Bruce McKenzie, Joan Mitchell, Nancy Walker-Mitchell, Gwen Stark, Tony Smith, Tim A. H. Bell<a href="#note1" epub:type="noteref">1</a>, Mike Hallett, 和 Harold Thimbleby 也提供許多有用的評論。
 		</p>
 		<p>
-			當然，我們也欠了我們家人很多：感謝 Bruce, Fran, Grant, Judith 和 Pam 的支持，以及 Andrew, Anna, Hannah, Max, Michael<a href="#notes" epub:type="noteref">2</a> 和 Nikki 給我們許多啟發。他們也經常是第一個接受測試的孩子們。
+			當然，我們也欠了我們家人很多：感謝 Bruce, Fran, Grant, Judith 和 Pam 的支持，以及 Andrew, Anna, Hannah, Max, Michael<a href="#note2" epub:type="noteref">2</a> 和 Nikki 給我們許多啟發。他們也經常是第一個接受測試的孩子們。
 		</p>
 		<p>
 			我們特別感謝 Google 公司資助不插電計畫，以及讓這本書能免費下載。
@@ -36,9 +38,11 @@
 		<p>
 			我們歡迎有關活動的評論以及建議。若要聯繫作者可透過 csunplugged.org。
 		</p>
-		<aside id="notes" epub:type="footnote pagebreak">
-			<p>1 與本書作者只是同名同姓而已</p>
-			<p>2 事實上，文字壓縮的活動是由 Michael 發明的。</p>
+		<aside epub:type="footnotes">
+			<ol>
+				<li id="note1">與本書作者只是同名同姓而已</li>
+				<li id="note2">事實上，文字壓縮的活動是由 Michael 發明的。</li>
+			</ol>
 		</aside>
 		<article>
 			<h2>謝誌（正體中文版）</h2>
