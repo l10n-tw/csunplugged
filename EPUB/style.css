@@ -1,0 +1,24 @@
+@namespace epub "http://www.idpf.org/2007/ops";
+
+a[epub|type~="noteref"] {
+	vertical-align: super;
+	padding: 0 .5em;
+	font-size: smaller;
+}
+aside[epub|type~="footnotes"] {
+	page-break-before: always;
+	page-break-after: always;
+}
+
+header[epub|type~="covertitle"] {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	page-break-after: always;
+}
+
+header[epub|type~="covertitle"] [epub|type="title"] {
+	font-size: 1.5em;
+}

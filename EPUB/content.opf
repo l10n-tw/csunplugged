@@ -9,7 +9,8 @@
 		<dc:publisher>中華民國軟體自由協會</dc:publisher>
 	</metadata>
 	<manifest>
-		<item id="toc" properties="nav" href="toc.xhtml" media-type="application/xhtml+xml"/>
+		<item href="style.css" id="style" media-type="text/css"/>
+		<item href="toc.xhtml" id="toc" properties="nav" media-type="application/xhtml+xml"/>
 		<item href="intro.xhtml" id="intro" media-type="application/xhtml+xml"/>
 		<item href="acknowledgements.xhtml" id="acknowledgements" media-type="application/xhtml+xml"/>
 		<item href="part1.xhtml" id="part1" media-type="application/xhtml+xml"/>
@@ -20,6 +21,7 @@
 		<item href="part6.xhtml" id="part6" media-type="application/xhtml+xml"/>
 	</manifest>
 	<spine toc="ncx">
+		<itemref idref="style" />
 		<itemref idref="intro" />
 		<itemref idref="acknowledgements" />
 		<itemref idref="part1" />
