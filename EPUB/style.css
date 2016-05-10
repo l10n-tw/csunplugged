@@ -20,5 +20,7 @@ header[epub|type~="covertitle"] {
 }
 
 header[epub|type~="covertitle"] [epub|type="title"] {
+	width: 100vw;
+	text-align: center;
 	font-size: 1.5em;
 }

@@ -21,7 +21,6 @@
 		<item href="part6.xhtml" id="part6" media-type="application/xhtml+xml"/>
 	</manifest>
 	<spine toc="ncx">
-		<itemref idref="style" />
 		<itemref idref="intro" />
 		<itemref idref="acknowledgements" />
 		<itemref idref="part1" />
